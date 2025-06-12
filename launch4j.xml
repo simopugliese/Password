@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>true</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>target\Password-1.0-SNAPSHOT-jar-with-dependencies.jar</jar>
+  <outfile>C:\Users\simon\IdeaProjects\Password\PasswordManager.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\simon\IdeaProjects\Password\icon.ico</icon>
+  <singleInstance>
+    <mutexName>PasswordManager</mutexName>
+    <windowTitle>PasswordManager</windowTitle>
+  </singleInstance>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>21</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+  <versionInfo>
+    <fileVersion>2.0.0.0</fileVersion>
+    <txtFileVersion>Password Manager 2.0.0.0</txtFileVersion>
+    <fileDescription>Password Manager moderno e sicuro</fileDescription>
+    <copyright>Simone Pugliese - Tutti i diritti riservati</copyright>
+    <productVersion>2.0.0.0</productVersion>
+    <txtProductVersion>Password Manager 2.0.0.0</txtProductVersion>
+    <productName>Password Manager</productName>
+    <companyName></companyName>
+    <internalName>Simone Pugliese</internalName>
+    <originalFilename>PasswordManager.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ITALIAN</language>
+  </versionInfo>
+</launch4jConfig>

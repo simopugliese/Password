@@ -1,0 +1,122 @@
+
+/* ===== FONTS E BASE ===== */
+.root {
+    -fx-font-family: "Inter", "Segoe UI", "Roboto", sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* ===== TEMA CHIARO ===== */
+.root.light {
+    -fx-base: #ffffff;
+    -fx-background: #f8f9fa;
+    -fx-text-fill: #2e2e2e;
+}
+
+/* ===== TEMA SCURO ===== */
+.root.dark {
+    -fx-base: #1e1e1e;
+    -fx-background: #2b2b2b;
+    -fx-text-fill: #f0f0f0;
+}
+
+/* ===== TEXT FIELD ===== */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #d0d7de;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    -fx-padding: 10px;
+    -fx-text-fill: #2e2e2e;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.05), 2, 0, 0, 1);
+}
+.root.dark .text-field {
+    -fx-background-color: #3a3a3a;
+    -fx-text-fill: #f0f0f0;
+    -fx-border-color: #555;
+}
+
+/* ===== BUTTON ===== */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #66bb6a, #43a047);
+    -fx-text-fill: white;
+    -fx-background-radius: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.1), 4, 0, 0, 2);
+    -fx-cursor: hand;
+}
+.root.dark .button {
+    -fx-background-color: linear-gradient(to bottom, #81c784, #388e3c);
+}
+
+/* ===== DIALOG ===== */
+.dialog-pane {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 16px;
+    -fx-padding: 20;
+}
+.root.dark .dialog-pane {
+    -fx-background-color: #2b2b2b;
+}
+
+/* ===== HEADER ===== */
+.header-panel {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #388e3c;
+    -fx-padding: 10 0;
+}
+.root.dark .header-panel {
+    -fx-text-fill: #81c784;
+}
+
+/* ===== TABLEVIEW ===== */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #d0d7de;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    -fx-padding: 1;
+    -fx-table-cell-border-color: transparent;
+    -fx-control-inner-background: white;
+    -fx-selection-bar: #e8f5e9;
+    -fx-selection-bar-text: #2e2e2e;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.05), 2, 0, 0, 1);
+}
+.root.dark .table-view {
+    -fx-background-color: #3a3a3a;
+    -fx-control-inner-background: #3a3a3a;
+    -fx-selection-bar: #558b2f;
+    -fx-selection-bar-text: #f0f0f0;
+}
+
+/* ===== COLONNE (HEADER) ===== */
+.table-view .column-header {
+    -fx-background-color: #e8f5e9;
+    -fx-border-color: #c8e6c9 transparent #c8e6c9 transparent;
+    -fx-border-width: 1px;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-text-fill: #2e2e2e;
+    -fx-alignment: CENTER;
+}
+.root.dark .table-view .column-header {
+    -fx-background-color: #2e7d32;
+    -fx-text-fill: #f0f0f0;
+    -fx-border-color: #1b5e20 transparent #1b5e20 transparent;
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #c8e6c9;
+}
+
+/* ===== HEADER BACKGROUND STYLING ===== */
+.table-view .column-header-background {
+    -fx-background-radius: 12px 12px 0 0;
+    -fx-padding: 6;
+}
+
+/* ===== CELLE ===== */
+.table-cell {
+    -fx-padding: 6 10;
+}

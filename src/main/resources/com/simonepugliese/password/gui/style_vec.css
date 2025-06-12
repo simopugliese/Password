@@ -1,0 +1,269 @@
+/* Dialog Pane */
+.dialog-pane {
+    -fx-background-color: #f0f4f2; /* Colore di sfondo coerente con il tema */
+    -fx-font-size: 14px; /* Font size */
+    -fx-font-family: "Segoe UI", sans-serif; /* Font famiglia */
+}
+
+/* Header Panel */
+.header-panel {
+    -fx-background-color: transparent; /* Trasparente per l'intestazione */
+    -fx-font-weight: bold; /* Grassetto */
+    -fx-text-fill: #388e3c; /* Colore verde scuro */
+}
+
+/* Text Field */
+.text-field {
+    -fx-background-color: white; /* Sfondo bianco per il campo di testo */
+    -fx-border-color: #b2dfdb; /* Colore del bordo verde chiaro */
+    -fx-border-radius: 6px; /* Bordi arrotondati */
+    -fx-background-radius: 6px; /* Bordi arrotondati */
+    -fx-padding: 6px; /* Spaziatura interna */
+    -fx-text-fill: #2a2a2a; /* Colore del testo scuro */
+}
+
+/* Button */
+.button {
+    -fx-background-color: #4caf50; /* Colore di sfondo verde */
+    -fx-text-fill: white; /* Colore del testo bianco */
+    -fx-background-radius: 6px; /* Bordo arrotondato */
+    -fx-padding: 8px 16px; /* Spaziatura interna del bottone */
+    -fx-font-weight: bold; /* Grassetto */
+    -fx-cursor: hand; /* Mani sulla zona cliccabile */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 2, 0.0, 0, 1); /* Ombra per effetto visivo */
+}
+
+/* Hover Effect on Button */
+.button:hover {
+    -fx-background-color: #66bb6a; /* Colore di sfondo verde chiaro quando il mouse passa sopra */
+}
+
+/* Button Pressed */
+.button:pressed {
+    -fx-background-color: #388e3c; /* Colore di sfondo verde scuro quando il bottone è premuto */
+}
+
+/* Cancel Button */
+.button:cancel {
+    -fx-background-color: transparent; /* Trasparente per il bottone di annullamento */
+    -fx-border-color: #ccc; /* Colore del bordo grigio */
+    -fx-text-fill: #555; /* Colore del testo grigio scuro */
+}
+
+/* List and Table Views */
+.list-view, .table-view {
+    -fx-background-color: #ffffff; /* Sfondo bianco per la lista e la tabella */
+    -fx-control-inner-background: #ffffff; /* Colore di sfondo interno */
+    -fx-border-color: #c8e6c9; /* Colore del bordo verde chiaro */
+    -fx-background-insets: 0; /* Rimuove gli insetti */
+}
+
+/* List and Table Cells */
+.list-cell, .table-cell {
+    -fx-background-color: transparent; /* Sfondo trasparente */
+    -fx-text-fill: #2a2a2a; /* Colore del testo scuro */
+}
+
+/* Selected Cell */
+.list-cell:selected, .table-row-cell:selected {
+    -fx-background-color: #a5d6a7; /* Verde chiaro per cella selezionata */
+    -fx-text-fill: #000; /* Colore del testo nero */
+}
+
+/* Hover Effect on Table Row */
+.table-row-cell:hover {
+    -fx-background-color: #e8f5e9; /* Colore di sfondo verde chiaro per riga */
+}
+
+/* Table Header */
+.table-view .column-header-background {
+    -fx-background-color: #d0f0d3; /* Colore di sfondo verde molto chiaro per l'intestazione */
+}
+
+.table-view .column-header {
+    -fx-font-weight: bold; /* Grassetto per le intestazioni */
+    -fx-text-fill: #2a2a2a; /* Colore del testo scuro */
+}
+
+/* Checkbox */
+.check-box {
+    -fx-text-fill: #2a2a2a; /* Colore del testo */
+}
+
+.check-box .box {
+    -fx-background-color: white; /* Sfondo bianco per la checkbox */
+    -fx-border-color: #81c784; /* Colore del bordo verde chiaro */
+    -fx-border-radius: 3px; /* Bordo arrotondato */
+    -fx-background-radius: 3px; /* Bordo arrotondato */
+}
+
+.check-box:selected .box {
+    -fx-background-color: #4caf50; /* Verde per la checkbox selezionata */
+    -fx-border-color: #4caf50; /* Bordo verde per la checkbox selezionata */
+}
+
+.check-box .mark {
+    -fx-background-color: white; /* Colore bianco per il segno di selezione */
+}
+
+/* Menu Bar */
+.menu-bar {
+    -fx-background-color: #e8f5e9; /* Verde molto chiaro per la barra del menu */
+    -fx-font-size: 5px; /* Dimensione del font per il menu */
+    -fx-padding: 2 6 2 6; /* Spaziatura */
+}
+
+.menu {
+    -fx-font-size: 10px; /* Font size per i menu */
+    -fx-text-fill: #2a2a2a; /* Colore del testo scuro */
+}
+
+.menu-item {
+    -fx-font-size: 10px; /* Font size per gli item del menu */
+}
+
+
+
+/*         rpnnaaf */
+
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-base: #e9f3fb;
+    -fx-background-color: #e9f3fb;
+    -fx-text-fill: #1e2b3c;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 6px 12px;
+    -fx-text-fill: #2b3e50;
+}
+
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #90caf9;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 6px;
+    -fx-text-fill: #1e2b3c;
+}
+
+.button {
+    -fx-background-color: #2196f3;
+    -fx-text-fill: white;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px 16px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 2, 0.0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #42a5f5;
+}
+
+.button:pressed {
+    -fx-background-color: #1e88e5;
+}
+
+.list-view, .table-view {
+    -fx-background-color: #ffffff;
+    -fx-control-inner-background: #ffffff;
+    -fx-border-color: #bbdefb;
+    -fx-background-insets: 0;
+}
+
+.list-cell, .table-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #1e2b3c;
+}
+
+.list-cell:selected, .table-row-cell:selected {
+    -fx-background-color: #90caf9;
+    -fx-text-fill: #000;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #e3f2fd;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #bbdefb;
+}
+
+.table-view .column-header {
+    -fx-font-weight: bold;
+    -fx-text-fill: #2b3e50;
+}
+
+.check-box {
+    -fx-text-fill: #2b3e50;
+}
+
+.check-box .box {
+    -fx-background-color: white;
+    -fx-border-color: #64b5f6;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #2196f3;
+    -fx-border-color: #2196f3;
+}
+
+.check-box .mark {
+    -fx-background-color: white;
+}
+
+.menu-bar {
+    -fx-background-color: #e3f2fd;
+    -fx-font-size: 5px;
+    -fx-padding: 2 6 2 6;
+}
+
+.menu {
+    -fx-font-size: 10px;
+    -fx-text-fill: #1e2b3c;
+}
+
+.menu-item {
+    -fx-font-size: 10px;
+}
+
+
+/* Context Menu */
+.context-menu {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #cfd8dc;
+    -fx-border-width: 1;
+    -fx-padding: 4px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0.0, 0, 2);
+}
+
+/* Menu Item Styles */
+.menu-item {
+    -fx-font-size: 12px;
+    -fx-padding: 4px 8px;
+    -fx-min-height: 28px;
+    -fx-text-fill: #1e2b3c;
+    -fx-background-color: transparent;
+    -fx-graphic-text-gap: 8px;
+    -fx-alignment: CENTER_LEFT;
+}
+
+/* Hover & Focus */
+.menu-item:hover, .menu-item:focused {
+    -fx-background-color: #e3f2fd;
+    -fx-text-fill: #1565c0;
+    -fx-cursor: hand;
+}
+
+/* Icon Scaling */
+.menu-item > .graphic {
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+}
