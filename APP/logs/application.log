@@ -1,0 +1,4 @@
+12-06-2025 16:08:29.553 INFO  [com.simonepugliese.password.Main.main] - GUI avviata da main
+12-06-2025 16:08:30.913 INFO  [com.simonepugliese.password.gui.GuiApp.showLoginScreen] - Viene mostrato il Login Screen
+12-06-2025 16:08:30.927 INFO  [com.simonepugliese.password.gui.GuiApp.start] - Chiamata a start(Stage stage)
+12-06-2025 16:08:32.383 INFO  [com.simonepugliese.password.gui.GuiApp.main] - GUI avviata
